@@ -1,0 +1,35 @@
+{
+  "default": {
+    "firstScene": "scene1",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+    "scene1": {
+      "type": "equirectangular",
+      "panorama": "images/r1.jpeg",
+      "hotSpots": [
+        {
+          "pitch": 9.816035098739599,
+          "yaw": -2.5046506277971186,
+          "type": "scene",
+          "text": "go",
+          "sceneId": "scene2",
+          "div": {}
+        }
+      ]
+    },
+    "scene2": {
+      "type": "equirectangular",
+      "panorama": "images/r2.jpeg",
+      "hotSpots": [
+        {
+          "pitch": 15.204756363094376,
+          "yaw": -12.62952111235085,
+          "type": "scene",
+          "text": "r1",
+          "sceneId": "scene1"
+        }
+      ]
+    }
+  }
+}
